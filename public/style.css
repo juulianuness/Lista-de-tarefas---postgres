@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.6);
+    background: #606c88;
     border-radius: 20px;
     padding: 40px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2 {
-    color: #667eea;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
@@ -117,23 +117,23 @@ h1, h2 {
 }
 
 .priority-badge.alta {
-    background-color: #ff6b6b !important;
+    background-color: #000000 !important;
     color: white !important;
 }
 
 .priority-badge.media, .priority-badge.média {
-    background-color: #ffd93d !important;
-    color: #333 !important;
+    background-color: #606c88 !important;
+    color: #ffffff !important;
 }
 
 .priority-badge.baixa {
-    background-color: #6bcf7f !important;
+    background-color: #a1a1a1 !important;
     color: white !important;
 }
 
 .btn-delete {
-    background: #ff6b6b !important;
-    color: white !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: rgb(255, 255, 255) !important;
     border: none !important;
     padding: 6px 15px;
     border-radius: 8px;
@@ -142,7 +142,7 @@ h1, h2 {
 }
 
 .btn-delete:hover {
-    background: #ff5252 !important;
+    background: #afafaf !important;
     transform: scale(1.05);
 }
 
