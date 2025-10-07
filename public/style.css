@@ -132,7 +132,7 @@ h1, h2 {
 }
 
 .btn-delete {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ffb9b9 0%, #ff6b6b  100%);
     color: rgb(255, 255, 255) !important;
     border: none !important;
     padding: 6px 15px;
@@ -150,12 +150,12 @@ h1, h2 {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    border: 2px solid #667eea;
+    border: 2px solid #ff6b6b;
 }
 
 .form-check-input:checked {
-    background-color: #667eea !important;
-    border-color: #667eea !important;
+    background-color: #ff6b6b  !important;
+    border-color: #ff6b6b  !important;
 }
 
 .btn-outline-primary {

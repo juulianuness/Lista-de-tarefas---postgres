@@ -141,7 +141,7 @@ function renderTasks(tasks) {
     chk.className = 'form-check-input me-2';
     chk.addEventListener('change', () => toggleCompleted(t.id, chk.checked));
     const label = document.createElement('span');
-    label.textContent = 'Concluído';
+    label.textContent = 'Feito';
     label.className = 'me-3';
     const del = document.createElement('button');
     del.className = 'btn-delete';
